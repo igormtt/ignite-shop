@@ -57,11 +57,8 @@ export default function Product({ product }: ProductProps) {
 
         <ProductDetails>
           <h1>{product.name} </h1>
-
           <span>{product.price}</span>
-
           <p>{product.description}</p>
-
           <button
             disabled={isCreatingCheckoutSection}
             onClick={handleBuyProduct}

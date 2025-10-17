@@ -64,3 +64,34 @@ export const Product = styled("a", {
     },
   },
 });
+
+export const FooterGroup = styled("div", {
+  display: "flex",
+  flexDirection: "row",
+  justifyContent: "space-between",
+  width: "100%",
+
+  div: {
+    display: "flex",
+    flexDirection: "column",
+    gap: "0.5rem",
+  },
+});
+
+export const CartMenu = styled("div", {
+  backgroundColor: "$gray800",
+  borderRadius: "12px",
+  cursor: "pointer",
+  background: "$green500",
+  display: "flex",
+  alignItems: "center",
+  justifyContent: "center",
+
+  
+  button: {
+    background: "none",
+    color: "$white",
+    outline: "none",
+    border: "none",
+  },
+});
